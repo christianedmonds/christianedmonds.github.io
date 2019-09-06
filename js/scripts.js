@@ -1,7 +1,7 @@
-var copyClick = document.querySelector('.copyright');
-var copyContent = document.querySelector('.copy_content');
+const copyClick = document.querySelector('.copyright');
+const copyContent = document.querySelector('.copy_content');
 
-function copyShow() {
+const copyShow = () => {
   copyContent.style.display = "block";
 }
 
